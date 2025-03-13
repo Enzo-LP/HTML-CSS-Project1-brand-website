@@ -13,7 +13,7 @@ Aucun logiciel spécifique n'est requis, vous avez simplement besoin de :
 
 ## 📥 Installation locale
 
-### 1️⃣ Cloner le dépôt
+### 1️⃣ Télécharger le projet
 
 Téléchargez le projet en **ZIP** :
 1. Allez sur la page du dépôt GitHub.
