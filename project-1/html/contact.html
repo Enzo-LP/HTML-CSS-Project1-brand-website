@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/contact.css'>
+</head>
+<body>
+    <div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="home.html"><img src="../images/home.png" alt="home icon"></a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">A propos de nous</a>
+                    <div class="dropdown-content">
+                        <a href="about-us-history.html">Histoire</a>
+                        <a href="about-us-team.html">Staff</a>
+                      </div>
+                </li>
+                <li><a href="our-mission.html">Mission</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Produits & Services</a>
+                    <div class="dropdown-content">
+                        <a href="services.html">Services</a>
+                        <a href="process.html">Processus</a>
+                      </div>
+                </li>
+                <li><a href="why-choose-us.html">Pourquoi nous ?</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="contact-text">
+            <h1>&#128222; Contactez-Nous</h1>
+            <form action="https://hnitest.go.yj.fr" method="post">
+                <input class="" id="lastname" type="text" name="lastname" placeholder="Nom" required />
+                <input class="" id="firstname" type="text" name="firstname" placeholder="Prénom" required />
+                <input class="" id="mail" type="email" name="email" placeholder="yourmail@yahoo.com" required />
+                <textarea class="" name="request" id="request" cols="66" rows="10" placeholder="Votre message..." required></textarea>
+                <select class="" name="country" id="country">
+                    <option value="fr">France</option>
+                    <option value="us">États-Unis</option>
+                    <option value="de">Allemagne</option>
+                    <option value="es">Espagne</option>
+                </select>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
